@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>harish@marri:~$ whoami</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Animated Grid Background -->
+    <div class="grid-bg"></div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="prompt">$</span> <span class="typing-text">cd ~/harish</span><span class="cursor">_</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about" data-cmd="cat about.md">/about</a>
+                <a href="#systems" data-cmd="ls systems/">/systems</a>
+                <a href="#projects" data-cmd="tree projects/">/projects</a>
+                <a href="#metrics" data-cmd="htop">/metrics</a>
+                <a href="#contact" data-cmd="mail -s 'Hello'">/contact</a>
+            </div>
+            <div class="nav-status">
+                <span class="status-dot"></span>
+                <span class="status-text">ONLINE</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Terminal Style -->
+    <section class="hero">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="btn-close"></span>
+                    <span class="btn-minimize"></span>
+                    <span class="btn-maximize"></span>
+                </div>
+                <div class="terminal-title">harish@distributed-systems ~ </div>
+            </div>
+            <div class="terminal-body">
+                <div class="ascii-art">
+<pre>
+ ██░ ██  ▄▄▄       ██▀███   ██▓  ██████  ██░ ██
+▓██░ ██▒▒████▄    ▓██ ▒ ██▒▓██▒▒██    ▒ ▓██░ ██▒
+▒██▀▀██░▒██  ▀█▄  ▓██ ░▄█ ▒▒██▒░ ▓██▄   ▒██▀▀██░
+░▓█ ░██ ░██▄▄▄▄██ ▒██▀▀█▄  ░██░  ▒   ██▒░▓█ ░██
+░▓█▒░██▓ ▓█   ▓██▒░██▓ ▒██▒░██░▒██████▒▒░▓█▒░██▓
+ ▒ ░░▒░▒ ▒▒   ▓▒█░░ ▒▓ ░▒▓░░▓  ▒ ▒▓▒ ▒ ░ ▒ ░░▒░▒
+</pre>
+                </div>
+                <div class="terminal-content">
+                    <div class="command-line">
+                        <span class="prompt-user">harish@server</span><span class="prompt-separator">:</span><span class="prompt-path">~</span><span class="prompt-symbol">$</span>
+                        <span class="typed-command">whoami --verbose</span>
+                    </div>
+                    <div class="command-output">
+                        <p class="output-line"><span class="key">NAME</span>: Harish Marri</p>
+                        <p class="output-line"><span class="key">ROLE</span>: Senior Software Engineer</p>
+                        <p class="output-line"><span class="key">FOCUS</span>: Distributed Systems | Microservices | Backend Infrastructure</p>
+                        <p class="output-line"><span class="key">LOCATION</span>: Hyderabad, India <span class="dim">(UTC+5:30)</span></p>
+                        <p class="output-line"><span class="key">UPTIME</span>: 6+ years in production</p>
+                    </div>
+                    <div class="command-line">
+                        <span class="prompt-user">harish@server</span><span class="prompt-separator">:</span><span class="prompt-path">~</span><span class="prompt-symbol">$</span>
+                        <span class="typed-command">cat mission.txt</span>
+                    </div>
+                    <div class="command-output highlight-box">
+                        <p>I architect systems that don't page you at 3 AM.</p>
+                        <p>Building scalable infrastructure with 99.9% uptime,</p>
+                        <p>50% cost reduction, and 60% latency improvements.</p>
+                    </div>
+                    <div class="command-line">
+                        <span class="prompt-user">harish@server</span><span class="prompt-separator">:</span><span class="prompt-path">~</span><span class="prompt-symbol">$</span>
+                        <span class="cursor-blink">_</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Section - System Info Style -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <span class="section-cmd">$ cat /etc/harish/profile</span>
+            <h2>System Profile</h2>
+        </div>
+        <div class="about-grid">
+            <div class="info-panel">
+                <div class="panel-header">
+                    <span class="panel-icon">[i]</span>
+                    <span class="panel-title">CORE_INFO</span>
+                </div>
+                <div class="panel-content">
+                    <div class="info-row">
+                        <span class="info-key">kernel</span>
+                        <span class="info-value">Senior Software Engineer</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-key">uptime</span>
+                        <span class="info-value">6+ years</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-key">arch</span>
+                        <span class="info-value">Distributed Systems</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-key">mode</span>
+                        <span class="info-value">Technical Lead</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="philosophy-panel">
+                <div class="panel-header">
+                    <span class="panel-icon">[*]</span>
+                    <span class="panel-title">ENGINEERING_PHILOSOPHY</span>
+                </div>
+                <div class="panel-content philosophy-content">
+                    <div class="philosophy-item">
+                        <span class="phi-symbol">&gt;</span>
+                        <span>Design for failure. Build for recovery.</span>
+                    </div>
+                    <div class="philosophy-item">
+                        <span class="phi-symbol">&gt;</span>
+                        <span>Observability isn't optional.</span>
+                    </div>
+                    <div class="philosophy-item">
+                        <span class="phi-symbol">&gt;</span>
+                        <span>Simple scales. Clever doesn't.</span>
+                    </div>
+                    <div class="philosophy-item">
+                        <span class="phi-symbol">&gt;</span>
+                        <span>If it's not monitored, it's not in production.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Systems Section - Architecture Diagram Style -->
+    <section id="systems" class="systems">
+        <div class="section-header">
+            <span class="section-cmd">$ systemctl list-units --type=expertise</span>
+            <h2>Technical Systems</h2>
+        </div>
+
+        <div class="architecture-diagram">
+            <div class="arch-layer layer-top">
+                <div class="layer-label">APPLICATION LAYER</div>
+                <div class="tech-nodes">
+                    <div class="tech-node" data-category="lang">
+                        <span class="node-icon">{ }</span>
+                        <span class="node-name">Golang</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                    <div class="tech-node" data-category="lang">
+                        <span class="node-icon">#!</span>
+                        <span class="node-name">Python</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                    <div class="tech-node" data-category="lang">
+                        <span class="node-icon">JS</span>
+                        <span class="node-name">JavaScript</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                    <div class="tech-node" data-category="lang">
+                        <span class="node-icon">&#9749;</span>
+                        <span class="node-name">Java</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                    <div class="tech-node" data-category="api">
+                        <span class="node-icon">&lt;/&gt;</span>
+                        <span class="node-name">Node.js</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                    <div class="tech-node" data-category="api">
+                        <span class="node-icon">[ ]</span>
+                        <span class="node-name">gRPC</span>
+                        <span class="node-level">EXPERT</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arch-connector">
+                <div class="connector-line"></div>
+                <div class="connector-dot"></div>
+                <div class="connector-line"></div>
+            </div>
+
+            <div class="arch-layer layer-middle">
+                <div class="layer-label">SERVICE MESH</div>
+                <div class="tech-nodes">
+                    <div class="tech-node" data-category="arch">
+                        <span class="node-icon">|||</span>
+                        <span class="node-name">Microservices</span>
+                        <span class="node-level">EXPERT</span>
+                    </div>
+                    <div class="tech-node" data-category="arch">
+                        <span class="node-icon">~&gt;</span>
+                        <span class="node-name">Event-Driven</span>
+                        <span class="node-level">EXPERT</span>
+                    </div>
+                    <div class="tech-node" data-category="queue">
+                        <span class="node-icon">&gt;&gt;</span>
+                        <span class="node-name">Kafka</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                    <div class="tech-node" data-category="queue">
+                        <span class="node-icon">&lt;&gt;</span>
+                        <span class="node-name">RabbitMQ</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                    <div class="tech-node" data-category="arch">
+                        <span class="node-icon">R/W</span>
+                        <span class="node-name">CQRS</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arch-connector">
+                <div class="connector-line"></div>
+                <div class="connector-dot"></div>
+                <div class="connector-line"></div>
+            </div>
+
+            <div class="arch-layer layer-bottom">
+                <div class="layer-label">INFRASTRUCTURE</div>
+                <div class="tech-nodes">
+                    <div class="tech-node" data-category="cloud">
+                        <span class="node-icon">aws</span>
+                        <span class="node-name">AWS</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                    <div class="tech-node" data-category="cloud">
+                        <span class="node-icon">gcp</span>
+                        <span class="node-name">GCP</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                    <div class="tech-node" data-category="container">
+                        <span class="node-icon">K8s</span>
+                        <span class="node-name">Kubernetes</span>
+                        <span class="node-level">EXPERT</span>
+                    </div>
+                    <div class="tech-node" data-category="container">
+                        <span class="node-icon">[ ]</span>
+                        <span class="node-name">Docker</span>
+                        <span class="node-level">EXPERT</span>
+                    </div>
+                    <div class="tech-node" data-category="devops">
+                        <span class="node-icon">&gt;&gt;</span>
+                        <span class="node-name">CI/CD</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                    <div class="tech-node" data-category="devops">
+                        <span class="node-icon">ngx</span>
+                        <span class="node-name">Nginx</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arch-connector">
+                <div class="connector-line"></div>
+                <div class="connector-dot"></div>
+                <div class="connector-line"></div>
+            </div>
+
+            <div class="arch-layer layer-data">
+                <div class="layer-label">DATA LAYER</div>
+                <div class="tech-nodes">
+                    <div class="tech-node" data-category="db">
+                        <span class="node-icon">{ }</span>
+                        <span class="node-name">MongoDB</span>
+                        <span class="node-level">EXPERT</span>
+                    </div>
+                    <div class="tech-node" data-category="db">
+                        <span class="node-icon">|-|</span>
+                        <span class="node-name">PostgreSQL</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                    <div class="tech-node" data-category="cache">
+                        <span class="node-icon">&lt;&gt;</span>
+                        <span class="node-name">Redis</span>
+                        <span class="node-level">EXPERT</span>
+                    </div>
+                    <div class="tech-node" data-category="storage">
+                        <span class="node-icon">S3</span>
+                        <span class="node-name">Object Storage</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="arch-connector">
+                <div class="connector-line"></div>
+                <div class="connector-dot"></div>
+                <div class="connector-line"></div>
+            </div>
+
+            <div class="arch-layer layer-media">
+                <div class="layer-label">MEDIA ENGINEERING</div>
+                <div class="tech-nodes">
+                    <div class="tech-node" data-category="media">
+                        <span class="node-icon">ff</span>
+                        <span class="node-name">FFmpeg</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                    <div class="tech-node" data-category="media">
+                        <span class="node-icon">&gt;&gt;</span>
+                        <span class="node-name">RTMP</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                    <div class="tech-node" data-category="media">
+                        <span class="node-icon">~&gt;</span>
+                        <span class="node-name">HLS/DASH</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                    <div class="tech-node" data-category="media">
+                        <span class="node-icon">[T]</span>
+                        <span class="node-name">Transcoding</span>
+                        <span class="node-level">PRIMARY</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section - Git Log Style -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <span class="section-cmd">$ git log --oneline --graph projects/</span>
+            <h2>Production Systems</h2>
+        </div>
+
+        <div class="git-log">
+            <div class="commit-item featured">
+                <div class="commit-graph">
+                    <div class="graph-line"></div>
+                    <div class="graph-node featured"></div>
+                    <div class="graph-line"></div>
+                </div>
+                <div class="commit-content">
+                    <div class="commit-header">
+                        <span class="commit-hash">a]7f3d2</span>
+                        <span class="commit-tag">PRODUCTION</span>
+                        <span class="commit-tag highlight">HIGH-IMPACT</span>
+                    </div>
+                    <h3 class="commit-message">feat(streaming): 24/7 Live Streaming Engine</h3>
+                    <p class="commit-description">
+                        Engineered a linear live-streaming engine that programmatically schedules VOD assets
+                        into live broadcasts. Delivers synchronized streams to YouTube, Twitch, and custom RTMP endpoints.
+                    </p>
+                    <div class="commit-stats">
+                        <span class="stat-item"><span class="stat-label">throughput:</span> 24/7 continuous</span>
+                        <span class="stat-item"><span class="stat-label">endpoints:</span> multi-platform</span>
+                        <span class="stat-item"><span class="stat-label">protocol:</span> RTMP/HLS/DASH</span>
+                    </div>
+                    <div class="commit-tech">
+                        <span>Golang</span>
+                        <span>FFmpeg</span>
+                        <span>Nginx-RTMP</span>
+                        <span>HLS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="commit-item">
+                <div class="commit-graph">
+                    <div class="graph-line"></div>
+                    <div class="graph-node"></div>
+                    <div class="graph-line"></div>
+                </div>
+                <div class="commit-content">
+                    <div class="commit-header">
+                        <span class="commit-hash">b]2e8a1</span>
+                        <span class="commit-tag">PRODUCTION</span>
+                    </div>
+                    <h3 class="commit-message">feat(data): High-Performance Data Indexer</h3>
+                    <p class="commit-description">
+                        Scaled backend and data infrastructure to support 1.9M+ production entities
+                        by decoupling read and write workloads using CQRS architecture. Reduced API
+                        response latency by 60% through targeted indexing and query optimization.
+                    </p>
+                    <div class="commit-stats">
+                        <span class="stat-item"><span class="stat-label">entities:</span> 1.9M+</span>
+                        <span class="stat-item"><span class="stat-label">latency:</span> -60%</span>
+                        <span class="stat-item"><span class="stat-label">pattern:</span> CQRS</span>
+                    </div>
+                    <div class="commit-tech">
+                        <span>MongoDB</span>
+                        <span>Kafka</span>
+                        <span>Redis</span>
+                        <span>gRPC</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="commit-item">
+                <div class="commit-graph">
+                    <div class="graph-line"></div>
+                    <div class="graph-node"></div>
+                    <div class="graph-line"></div>
+                </div>
+                <div class="commit-content">
+                    <div class="commit-header">
+                        <span class="commit-hash">c]9d4b7</span>
+                        <span class="commit-tag">ARCHITECTURE</span>
+                    </div>
+                    <h3 class="commit-message">refactor(infra): Monolith to Microservices Migration</h3>
+                    <p class="commit-description">
+                        Architected migration from monolithic architecture to microservices and event-driven
+                        systems, improving fault isolation and enabling scalable handling of peak traffic.
+                    </p>
+                    <div class="commit-stats">
+                        <span class="stat-item"><span class="stat-label">pattern:</span> event-driven</span>
+                        <span class="stat-item"><span class="stat-label">isolation:</span> fault-tolerant</span>
+                        <span class="stat-item"><span class="stat-label">scale:</span> peak traffic</span>
+                    </div>
+                    <div class="commit-tech">
+                        <span>Kubernetes</span>
+                        <span>Docker</span>
+                        <span>Terraform</span>
+                        <span>AWS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="commit-item">
+                <div class="commit-graph">
+                    <div class="graph-line"></div>
+                    <div class="graph-node"></div>
+                    <div class="graph-line"></div>
+                </div>
+                <div class="commit-content">
+                    <div class="commit-header">
+                        <span class="commit-hash">d]5c2e9</span>
+                        <span class="commit-tag">PRODUCTION</span>
+                    </div>
+                    <h3 class="commit-message">feat(media): Production Media Server</h3>
+                    <p class="commit-description">
+                        Owned the design and implementation of a production media server, driving
+                        architecture decisions, release planning, code reviews, and production readiness.
+                    </p>
+                    <div class="commit-stats">
+                        <span class="stat-item"><span class="stat-label">uptime:</span> 99.9%</span>
+                        <span class="stat-item"><span class="stat-label">latency:</span> low</span>
+                        <span class="stat-item"><span class="stat-label">delivery:</span> CDN</span>
+                    </div>
+                    <div class="commit-tech">
+                        <span>Golang</span>
+                        <span>Nginx</span>
+                        <span>CDN</span>
+                        <span>HLS</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="commit-item">
+                <div class="commit-graph">
+                    <div class="graph-line"></div>
+                    <div class="graph-node"></div>
+                    <div class="graph-line"></div>
+                </div>
+                <div class="commit-content">
+                    <div class="commit-header">
+                        <span class="commit-hash">e]8a1c4</span>
+                        <span class="commit-tag">PRODUCTION</span>
+                        <span class="commit-tag highlight">HIGH-IMPACT</span>
+                    </div>
+                    <h3 class="commit-message">feat(monetization): Ad-Slot Booking Platform</h3>
+                    <p class="commit-description">
+                        Enabled platform monetization by designing and implementing an ad-slot booking
+                        platform with campaign management workflows, generating $18K+ in production revenue.
+                    </p>
+                    <div class="commit-stats">
+                        <span class="stat-item"><span class="stat-label">revenue:</span> $18K+</span>
+                        <span class="stat-item"><span class="stat-label">type:</span> campaign mgmt</span>
+                        <span class="stat-item"><span class="stat-label">status:</span> production</span>
+                    </div>
+                    <div class="commit-tech">
+                        <span>Golang</span>
+                        <span>Microservices</span>
+                        <span>REST</span>
+                        <span>MongoDB</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="commit-item">
+                <div class="commit-graph">
+                    <div class="graph-line"></div>
+                    <div class="graph-node"></div>
+                    <div class="graph-line-end"></div>
+                </div>
+                <div class="commit-content">
+                    <div class="commit-header">
+                        <span class="commit-hash">f]3b7d6</span>
+                        <span class="commit-tag">ARCHITECTURE</span>
+                    </div>
+                    <h3 class="commit-message">feat(distributed): Layer-1 Blockchain System</h3>
+                    <p class="commit-description">
+                        Designed and built a production distributed system (Layer-1 blockchain) and
+                        led its launch across 50+ nodes, implementing custom backend modules and
+                        gRPC APIs for state updates and queries.
+                    </p>
+                    <div class="commit-stats">
+                        <span class="stat-item"><span class="stat-label">nodes:</span> 50+</span>
+                        <span class="stat-item"><span class="stat-label">protocol:</span> gRPC</span>
+                        <span class="stat-item"><span class="stat-label">type:</span> Layer-1</span>
+                    </div>
+                    <div class="commit-tech">
+                        <span>Golang</span>
+                        <span>gRPC</span>
+                        <span>Distributed Systems</span>
+                        <span>Docker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section - Process Tree Style -->
+    <section id="metrics" class="experience">
+        <div class="section-header">
+            <span class="section-cmd">$ pstree -p career</span>
+            <h2>Career Tree</h2>
+        </div>
+
+        <div class="process-tree">
+            <div class="process-node root">
+                <div class="process-info">
+                    <span class="process-name">career</span>
+                    <span class="process-pid">PID: 2019</span>
+                </div>
+            </div>
+
+            <div class="process-branch">
+                <div class="branch-line"></div>
+                <div class="process-node">
+                    <div class="process-header">
+                        <span class="process-name">senior_engineer_tech_lead</span>
+                        <span class="process-status running">RUNNING</span>
+                    </div>
+                    <div class="process-details">
+                        <p class="process-org">Layer0X Tech Labs</p>
+                        <p class="process-time">Apr 2024 - Present</p>
+                        <div class="process-metrics">
+                            <span>team_size: 4</span>
+                            <span>velocity: +25%</span>
+                            <span>revenue: $18K+</span>
+                        </div>
+                        <ul class="process-tasks">
+                            <li>Architected monolith &rarr; microservices migration</li>
+                            <li>Designed ad-slot booking platform ($18K+ revenue)</li>
+                            <li>Owned production media-server delivery</li>
+                            <li>Led team of 4, standardized code reviews &amp; CI/CD</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="process-branch">
+                <div class="branch-line"></div>
+                <div class="process-node">
+                    <div class="process-header">
+                        <span class="process-name">senior_engineer</span>
+                        <span class="process-status completed">COMPLETED</span>
+                    </div>
+                    <div class="process-details">
+                        <p class="process-org">Cosmic Tech Labs</p>
+                        <p class="process-time">Oct 2020 - Mar 2024</p>
+                        <div class="process-metrics">
+                            <span>uptime: 99.9%</span>
+                            <span>latency: -60%</span>
+                            <span>entities: 1.9M+</span>
+                        </div>
+                        <ul class="process-tasks">
+                            <li>Built 24/7 live-streaming engine</li>
+                            <li>Scaled backend to 1.9M+ entities (CQRS)</li>
+                            <li>Built Layer-1 blockchain across 50+ nodes</li>
+                            <li>Owned production infra, 99.9% uptime</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="process-branch">
+                <div class="branch-line last"></div>
+                <div class="process-node">
+                    <div class="process-header">
+                        <span class="process-name">software_engineer</span>
+                        <span class="process-status completed">COMPLETED</span>
+                    </div>
+                    <div class="process-details">
+                        <p class="process-org">Cosmic Tech Labs</p>
+                        <p class="process-time">Jun 2019 - Sep 2020</p>
+                        <ul class="process-tasks">
+                            <li>Built backend services with RESTful APIs</li>
+                            <li>Contributed to CI/CD pipelines</li>
+                            <li>Developed automation services in Python &amp; Go</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <span class="section-cmd">$ curl -X POST /api/contact</span>
+            <h2>Initialize Connection</h2>
+        </div>
+
+        <div class="contact-terminal">
+            <div class="request-block">
+                <div class="request-header">
+                    <span class="method">POST</span>
+                    <span class="endpoint">/api/v1/contact</span>
+                </div>
+                <pre class="request-body">{
+  "to": "harishmarri551@gmail.com",
+  "subject": "Let's build something great",
+  "priority": "high"
+}</pre>
+            </div>
+
+            <div class="contact-links">
+                <a href="mailto:harishmarri551@gmail.com" class="contact-endpoint">
+                    <span class="endpoint-method">MAIL</span>
+                    <span class="endpoint-path">harishmarri551@gmail.com</span>
+                </a>
+                <a href="https://github.com/harish551" target="_blank" class="contact-endpoint">
+                    <span class="endpoint-method">GET</span>
+                    <span class="endpoint-path">github.com/harish551</span>
+                </a>
+                <a href="https://linkedin.com/in/harish551" target="_blank" class="contact-endpoint">
+                    <span class="endpoint-method">GET</span>
+                    <span class="endpoint-path">linkedin.com/in/harish551</span>
+                </a>
+                <a href="tel:+918374184037" class="contact-endpoint">
+                    <span class="endpoint-method">CALL</span>
+                    <span class="endpoint-path">+91 8374184037</span>
+                </a>
+            </div>
+
+            <div class="response-block">
+                <div class="response-header">
+                    <span class="status-code">200</span>
+                    <span class="status-text">OK</span>
+                </div>
+                <pre class="response-body">{
+  "status": "available",
+  "response_time": "&lt; 24 hours",
+  "timezone": "IST (UTC+5:30)",
+  "open_to": ["full-time", "consulting", "interesting-problems"]
+}</pre>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-ascii">
+                <pre>/* Built with vim, coffee, and mass -> 0 defects */</pre>
+            </div>
+            <div class="footer-info">
+                <span>Harish Marri</span>
+                <span class="separator">|</span>
+                <span>Hyderabad, India</span>
+                <span class="separator">|</span>
+                <span class="footer-year">2024</span>
+            </div>
+            <div class="footer-uptime">
+                <span class="status-indicator"></span>
+                <span>All systems operational</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
